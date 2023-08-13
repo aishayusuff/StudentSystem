@@ -10,7 +10,7 @@ export default function NewStudents() {
     e.preventDefault();
     const student = { name, address };
     fetch(
-      "http://studentsystem-env.eba-gunidggn.us-east-1.elasticbeanstalk.com/student/add",
+      "https://studentsystem-env.eba-gunidggn.us-east-1.elasticbeanstalk.com/student/add",
       {
         method: "POST",
         headers: {
