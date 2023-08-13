@@ -1,0 +1,46 @@
+main {
+  background: linear-gradient(to bottom, rgb(0, 107, 166, 70%), rgb(9, 4, 70, 90%));
+  border-radius: 6px !important;
+  color: #80ded9;
+ 
+}
+
+.wrapper {
+  width: 50%;
+  margin: 10% auto;
+
+}
+
+.spans {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20%;
+  font-weight: 600;
+  font-size: 400%;
+} 
+
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 10px;
+  text-decoration: none !important;
+}
+
+
+
+#database {
+  padding-left: 3%;
+}
+
+.hover {
+  color: #80ded9;
+  text-decoration: none;
+}
+.hover:hover {
+  color: white;
+}
+

@@ -1,0 +1,53 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-header {
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+
+#name {
+  color: #80ded9;
+}
+
+#address {
+  color: #2a628f;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+input {
+  border: thin;
+  border-style: dotted;
+  border-radius: 10px;
+  width: 45%;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.name-field {
+  margin-bottom: 25px;
+}
+
+button {
+    padding: 15px 0;
+  border: none;
+  border-radius: 15px;
+  background-color: #2a628f;
+  color: #80ded9;
+  width: 10%;
+}
+
+button:hover {
+  background-color: #80ded9;
+  color: #2a628f;
+}
