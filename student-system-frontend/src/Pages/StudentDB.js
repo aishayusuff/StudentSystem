@@ -6,7 +6,9 @@ import Table from "react-bootstrap/Table";
 export default function StudentDB() {
   const [students, setStudents] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:8080/student/getAll")
+    fetch(
+      "http://studentsystem-env.eba-gunidggn.us-east-1.elasticbeanstalk.com/student/getAll"
+    )
       .then((response) => response.json()) //An interesitng way to extract data in JSON form from the response
       .then((data) => setStudents(data));
   });

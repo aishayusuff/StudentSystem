@@ -9,14 +9,17 @@ export default function NewStudents() {
   const handleClick = (e) => {
     e.preventDefault();
     const student = { name, address };
-    fetch("http://localhost:8080/student/add", {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(student),
-    })
+    fetch(
+      "http://studentsystem-env.eba-gunidggn.us-east-1.elasticbeanstalk.com/student/add",
+      {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(student),
+      }
+    )
       .then(() => {
         setName("");
         setAddress("");
