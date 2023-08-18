@@ -1,14 +1,13 @@
 main {
-  background: linear-gradient(to bottom, rgb(0, 107, 166, 70%), rgb(9, 4, 70, 90%));
+  background-color: #3a4e48;
   border-radius: 6px !important;
-  color: #80ded9;
- 
+  color: #daddd8;
+  /* max-height: fit-content; */
 }
 
 .wrapper {
   width: 50%;
   margin: 10% auto;
-
 }
 
 .spans {
@@ -18,29 +17,26 @@ main {
   padding-top: 20%;
   font-weight: 600;
   font-size: 400%;
-} 
-
+}
+.icon {
+  margin: 0 20px;
+  width: 40px;
+}
 
 .links {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  align-items: center;
   text-decoration: none;
   padding-top: 10px;
-  text-decoration: none !important;
-}
-
-
-
-#database {
-  padding-left: 3%;
+  text-decoration: none;
 }
 
 .hover {
-  color: #80ded9;
+  color: #daddd8;
   text-decoration: none;
+  transition: all 0.5s;
 }
 .hover:hover {
-  color: white;
+  text-decoration: underline;
 }
-

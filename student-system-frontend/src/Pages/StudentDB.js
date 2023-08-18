@@ -15,7 +15,7 @@ export default function StudentDB() {
   return (
     <>
       <Header />
-      <Table striped>
+      <Table className="table" striped>
         <thead>
           <tr>
             <th>Name</th>

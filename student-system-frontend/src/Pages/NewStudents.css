@@ -3,19 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
+  background-color: #daddd8;
 }
 
 .input-header {
   padding-top: 55px;
   padding-bottom: 20px;
-}
-
-#name {
-  color: #80ded9;
-}
-
-#address {
-  color: #2a628f;
 }
 
 .form {
@@ -26,28 +20,34 @@
 }
 
 input {
-  border: thin;
-  border-style: dotted;
-  border-radius: 10px;
+  border: #3a4e48;
+  border-style: thin 2px !important;
+  border-radius: 30px;
   width: 45%;
   height: 60px;
   margin: 0 auto;
+  padding: 13px;
+}
+
+input:focus {
+  border-style: solid #daddd8 !important;
 }
 
 .name-field {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 button {
-    padding: 15px 0;
+  padding: 10px 0;
   border: none;
-  border-radius: 15px;
-  background-color: #2a628f;
-  color: #80ded9;
+  border-radius: 25px;
+  background-color: #3a4e48;
+  color: #daddd8;
   width: 10%;
+  transition: all 0.3s;
 }
 
 button:hover {
-  background-color: #80ded9;
-  color: #2a628f;
+  background-color: #daddd8;
+  color: #3a4e48;
 }
