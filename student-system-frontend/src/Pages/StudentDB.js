@@ -9,7 +9,7 @@ export default function StudentDB() {
     fetch(
       "https://studentsystem-env.eba-gunidggn.us-east-1.elasticbeanstalk.com/student/getAll"
     )
-      .then((response) => response.json()) //An interesitng way to extract data in JSON form from the response
+      .then((response) => response.json())
       .then((data) => setStudents(data));
   });
   return (
